@@ -1,0 +1,30 @@
+{
+  "name": "larva/laravel-scout-sphinxsearch",
+  "description": "Laravel Scout Sphinx Driver",
+  "keywords": [ "laravel", "search", "scout", "sphinxsearch", "larva" ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.0.*",
+    "illuminate/database": "^5.8 || ^6.0 || ^7.0",
+    "illuminate/support": "^5.8 || ^6.0 || ^7.0",
+    "laravel/scout": "^6.0 || ^7.0 || ^8.0",
+    "foolz/sphinxql-query-builder": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Larva\\SphinxSearch\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Larva\\SphinxSearch\\SphinxSearchServiceProvider"
+      ]
+    }
+  },
+  "prefer-stable": true
+}
