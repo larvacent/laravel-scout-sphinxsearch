@@ -5,8 +5,8 @@
   "type": "library",
   "license": "MIT",
   "require": {
-    "illuminate/database": "^5.8 || ^6.0 || ^7.0",
-    "illuminate/support": "^5.8 || ^6.0 || ^7.0",
+    "illuminate/database": "^5.8 || ^6.0 || ^7.0 || ^8.0",
+    "illuminate/support": "^5.8 || ^6.0 || ^7.0 || ^8.0",
     "laravel/scout": "^6.0 || ^7.0 || ^8.0",
     "foolz/sphinxql-query-builder": "^2.0"
   },
